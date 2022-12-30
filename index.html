@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Encriptador de texto</title>
+</head>
+<body>
+  <main>
+    <div class="main-left">
+      <div class="logo">
+        <h1>Bienvenidos al programa de Encriptación de texto</h1></div>
+      </div>
+      <div class="input-container">
+      <textarea id="input" spellcheck="false" placeholder="Ingrese el texto aquí" autofocus></textarea>
+      <div class="message" id="message">
+        <span>!</span><p >Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="buttons">
+        <button class="btn primary" id="btn-encrypt">Encriptar</button>
+        <button class="btn secondary" id="btn-decrypt">Desencriptar</button>
+      </div>
+      </div>
+    </div>
+    <div class="main-right">
+      <div class="screen-container hidden">
+        <div id="screen"></div>
+        <button id="copy" class="btn secondary copy">Copiar</button>
+      </div>
+      <div class="center">
+        <div class="search-image">
+          <img src="img/imagen.png" alt="">
+        </div>
+        <div class="empty-text">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="box__copyright">
+     <br> <hr />
+      <p style="text-align: center;">
+        Todos los derechos reservados © 2022 <b>Desarrollador: Erick Maldonado</b>
+      </p>
+        <a href="https://github.com/EriMaldonado"
+          ><i class="fab fa-github"></i> Github</a>
+        <a href="https://www.linkedin.com/in/erickmaldonado1/"
+          ><i class="fab fa-linkedin"></i> LinkedIn</a> 
+      </div>
+    </div>
+  </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/3feef57c63.js" crossorigin="anonymous"></script>
+</body>
+</html>
